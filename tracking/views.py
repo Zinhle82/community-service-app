@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def view_reports(request):
+    return render(request, 'view_reports.html')
